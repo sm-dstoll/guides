@@ -25,7 +25,7 @@ In the redux store (`./src/store/sm/index.js`), locate the `sendTextMessage` met
   });
   ```
 
-Our `sendFormMessage` is very similar to the `sendTextMessage` method. The one difference is that we are now including a `payload` parameter to be passed to the method, and sending that payload to the conversation context using the `persona.conversationSetVariables(payload)` method. 
+Our `sendFormMessage` is very similar to the `sendTextMessage` method. The one difference is that we are now including a `payload` parameter to be passed to the method, and sending that payload to the conversation context using the [`persona.conversationSetVariables(payload)`](https://docs.soulmachines.com/web-sdk/api/smwebsdk.persona.conversationsetvariables) method. 
 
 Since we are already exporting the method in our function definition, we are now finished with modifying the redux store file and can move on to creating our `ComplexForm` component.
 
