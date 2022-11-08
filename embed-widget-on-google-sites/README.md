@@ -1,6 +1,6 @@
 # Embedding DP Widget on Google Sites Domain
 
-Google Sites web pages deployed with a Soul Machines Widget do not have a dependable originating URL that we are able to authorize when creating an API key in DDNAS. Simple adding a custom UI domain of `https://sites.google.com` to your configuration does not work, as Google seems to generate a random originating URL for the requests to our server.
+Google Sites web pages deployed with a Soul Machines Widget do not have a dependable originating URL that we are able to authorize when creating an API key in DDNAS. Simply adding a custom UI domain of `https://sites.google.com` to your configuration does not work, as Google seems to generate a random originating URL for the requests to our server.
 
 ![](./cors.png)
 
