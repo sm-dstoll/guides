@@ -1,0 +1,22 @@
+{
+  "name": "df-es-fulfillment-starter-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "wolfram-alpha-node": "^0.0.3",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb": "^19.0.4"
+  }
+}
