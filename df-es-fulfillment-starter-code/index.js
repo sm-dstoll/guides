@@ -101,8 +101,7 @@ function processFallback(state, outputContexts) {
   const noMatchCount = findNoMatchCount(outputContexts);
   let text = '';
   if (noMatchCount > 2) {
-    const returnObject = agentEscalation(state);
-    returnObject.fulfillmentMessages[0].text.text[0] = `Hmm. It seems like we may be having communication errors. ${returnObject.fulfillmentMessages[0].text.text[0]}`;
+    text = `Hmm. It seems like we may be having communication errors.`;
     return returnObject;
   } if (noMatchCount === 2) {
     text = 'I\'m so sorry, I couldn\'t understand that. If you aren\'t already, could you please type your response?';
